@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {useState,useEffect} from 'react'
 import { v4 as uuidv4 } from 'uuid';
-import {storage,db,serverTimestamp} from './firebase'
+import {storage,db,serverTimestamp} from '../firebase-config/firebase'
 import styles from "../styles/Home.module.css";
 
 

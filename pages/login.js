@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
-import { auth } from "./firebase";
+import { auth } from "../firebase-config/firebase";
 import styles from "../styles/Home.module.css";
 
 export default function login() {

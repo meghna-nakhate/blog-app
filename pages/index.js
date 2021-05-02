@@ -1,4 +1,4 @@
-import {db} from './firebase'
+import {db} from '../firebase-config/firebase'
 import Link from 'next/link'
 import {useState} from 'react'
 

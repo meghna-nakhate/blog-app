@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {auth} from '../firebase'
+import {auth} from '../../firebase-config/firebase'
 export default function NavBar({user}) {
     return (
         <nav>

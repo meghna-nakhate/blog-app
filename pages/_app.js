@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import Head from "next/head"
 import NavBar from "./components/NavBar"
 import {useState,useEffect} from 'react'
-import {auth} from "./firebase.js"
+import {auth} from "../firebase-config/firebase"
 
 function MyApp({ Component, pageProps }) {
   const [user,setUser] = useState(null)
